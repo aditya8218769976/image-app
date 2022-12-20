@@ -1,0 +1,98 @@
+.main-container {
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.main-wrapper {
+  background: #efedf5;
+  height: 90vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-listStyle-container {
+  display: flex;
+  position: relative;
+  color: rgb(251, 245, 245);
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.image-title {
+  position: absolute;
+  top: 76%;
+  max-width: 9rem;
+  margin-left: 3rem;
+}
+
+.image {
+  height: 16rem;
+  width: 12rem;
+}
+
+.image-expand {
+  max-width: 70%;
+  width: 40rem;
+  transform: skew(-16deg);
+}
+
+.image-listStyle-container div:nth-of-type(2) {
+  transform: skew(-16deg);
+  background-position: center;
+}
+.image-listStyle-container div:nth-of-type(3) {
+  transform: skew(-16deg);
+  background-position: center;
+}
+.image-listStyle-container div:nth-of-type(4) {
+  transform: skew(-16deg);
+  background-position: center;
+}
+
+.btn-style img {
+  height: 2rem;
+  width: 1rem;
+}
+
+.btn-style {
+  position: absolute;
+  top: 43%;
+  cursor: pointer;
+}
+
+.image-content {
+  max-width: 0px;
+  overflow: hidden;
+}
+
+.image-content-show {
+  width: auto;
+  max-width: 70%;
+  display: flex;
+}
+
+.image-content-show {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+
+.image-listStyle-container div:nth-of-type(1) {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-position: center;
+  transform: skew(-16deg);
+}
+
+.image-listStyle-container div:nth-of-type(5) {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-position: center;
+  transform: skew(-16deg);
+}
